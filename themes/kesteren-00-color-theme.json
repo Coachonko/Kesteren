@@ -33,9 +33,9 @@
     "editor.background": "#1d2021",
     "editor.foreground": "#ebdbb2",
     "editorWidget.background": "#1d2021",
-    "editor.selectionBackground": "#EBDBB23f",
+    "editor.selectionBackground": "#ebdbb23f",
     "editor.selectionForeground": "#282828",
-    "editor.inactiveSelectionBackground": "#EBDBB23f",
+    "editor.inactiveSelectionBackground": "#ebdbb23f",
     "editor.selectionHighlightBackground": "#504945",
     "editor.findMatchBackground": "#fbf1c7",
     "editor.findMatchHighlightBackground": "#7c6f64",
@@ -53,8 +53,8 @@
     "editorHoverWidget.background": "#1d2021",
     "editorHoverWidget.border": "#fbf1c7",
     "editorSuggestWidget.border": "#fbf1c7",
-    "editorLineNumber.foreground": "#ebdbb2",
-    "editorLineNumber.activeForeground": "#83a598",
+    "editorLineNumber.foreground": "#ebdbb299",
+    "editorLineNumber.activeForeground": "#fabd2f",
     "editorBracketMatch.border": "#97a7c8ff",
     "editorGutter.modifiedBackground": "#fabd2f",
     "editorGutter.addedBackground": "#b8bb26",
@@ -83,7 +83,7 @@
     "panel.border": "#a89984",
     "panelTitle.activeForeground": "#fbf1c7",
     "panelTitle.inactiveForeground": "#fbf1c777",
-    "statusBar.foreground": "#EBDBB2",
+    "statusBar.foreground": "#ebdbb2",
     "statusBar.background": "#1d2021",
     "statusBar.noFolderBackground": "#1d2021",
     "statusBar.noFolderBorder": "#1d2021",
@@ -97,14 +97,14 @@
     "activityBarBadge.background": "#b8bb26",
     "activityBarBadge.foreground": "#000000",
     "sideBar.background": "#1d2021",
-    "sideBar.foreground": "#EBDBB2",
+    "sideBar.foreground": "#ebdbb2",
     "sideBar.border": "#45858822",
-    "sideBarSectionHeader.foreground": "#EBDBB2",
+    "sideBarSectionHeader.foreground": "#ebdbb2",
     "sideBarSectionHeader.background": "#1d2021",
     "titleBar.inactiveBackground": "#1d2021",
-    "titleBar.inactiveForeground": "#EBDBB299",
+    "titleBar.inactiveForeground": "#ebdbb299",
     "titleBar.activeBackground": "#1d2021",
-    "titleBar.activeForeground": "#EBDBB2",
+    "titleBar.activeForeground": "#ebdbb2",
     "terminal.ansiBlack": "#1d2021",
     "terminal.ansiRed": "#cc241d",
     "terminal.ansiGreen": "#98971a",
@@ -122,13 +122,13 @@
     "terminal.ansiBrightCyan": "#8ec07c",
     "terminal.ansiBrightWhite": "#fbf1c7",
     "terminal.background": "#1d2021",
-    "terminal.foreground": "#EBDBB2",
+    "terminal.foreground": "#ebdbb2",
     "terminalCursor.foreground": "#689d6a",
     "terminal.border": "#689d6a",
     "debugToolBar.background": "#1d2021",
     "dropdown.background": "#1d2021",
     "dropdown.border": "#fbf1c7",
-    "dropdown.foreground": "#EBDBB2",
+    "dropdown.foreground": "#ebdbb2",
     "dropdown.listBackground": "#1d2021",
     "peekView.border": "#97a7c8ff",
     "peekViewEditor.background": "#1d2021",
@@ -694,57 +694,10 @@
       }
     },
     {
-      "name": "coloring of the Java import and package identifiers",
-      "scope": [
-        "storage.modifier.import.java",
-        "storage.modifier.package.java"
-      ],
-      "settings": {
-        "foreground": "#bdae93"
-      }
-    },
-    {
-      "scope": [
-        "keyword.other.import.java",
-        "keyword.other.package.java"
-      ],
-      "settings": {
-        "foreground": "#8ec07c"
-      }
-    },
-    {
-      "scope": "storage.type.java",
-      "settings": {
-        "foreground": "#fabd2f"
-      }
-    },
-    {
       "scope": "storage.type.annotation",
       "settings": {
         "foreground": "#83a598",
         "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": "keyword.other.documentation.javadoc",
-      "settings": {
-        "foreground": "#8ec07c"
-      }
-    },
-    {
-      "scope": "comment.block.javadoc variable.parameter.java",
-      "settings": {
-        "foreground": "#b8bb26",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": [
-        "source.java variable.other.object",
-        "source.java variable.other.definition.java"
-      ],
-      "settings": {
-        "foreground": "#fbf1c7"
       }
     },
     {
@@ -981,6 +934,48 @@
       ],
       "settings": {
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "V module keyword",
+      "scope": "keyword.module.v",
+      "settings": {
+        "foreground": "#458588"
+      }
+    },
+    {
+      "name": "V module names",
+      "scope": "entity.name.module.v",
+      "settings": {
+        "foreground": "#83a598"
+      }
+    },
+    {
+      "name": "V import keyword",
+      "scope": "keyword.import.v",
+      "settings": {
+        "foreground": "#8ec07c"
+      }
+    },
+    {
+      "name": "V import names",
+      "scope": "entity.name.import.v",
+      "settings": {
+        "foreground": "#b8bb26"
+      }
+    },
+    {
+      "name": "V import aliases",
+      "scope": "entity.name.alias.v",
+      "settings": {
+        "foreground": "#98971a"
+      }
+    },
+    {
+      "name": "V functions",
+      "scope": "keyword.fn.v",
+      "settings": {
+        "foreground": "#8ec07c"
       }
     }
   ]
