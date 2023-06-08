@@ -1,0 +1,32 @@
+{
+	"name": "kesteren-theme",
+	"displayName": "Kesteren theme",
+	"description": "A dark theme",
+	"version": "0.1.0",
+	"publisher": "Coachonko",
+	"icon": "images/icons/logo.png",
+	"galleryBanner": {
+		"color": "#1d2021",
+		"theme": "dark"
+	},
+	"homepage": "https://github.com/Coachonko/Kesteren",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Coachonko/Kesteren"
+	},
+	"engines": {
+		"vscode": "^1.78.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Kesteren",
+				"uiTheme": "vs-dark",
+				"path": "./themes/kesteren-00-color-theme.json"
+			}
+		]
+	}
+}
