@@ -62,7 +62,7 @@
     "editorCursor.background": "#98971a",
     "editorCursor.foreground": "#b8bb26",
     "editorWhitespace.foreground": "#45858866",
-    "editorRuler.foreground": "#ebdbb299",
+    "editorRuler.foreground": "#83a59899",
     "editorInfo.foreground": "#458588",
     "editorInfo.border": "#1d2021",
     "tab.activeBackground": "#1d2021",
@@ -98,7 +98,7 @@
     "activityBarBadge.foreground": "#000000",
     "sideBar.background": "#1d2021",
     "sideBar.foreground": "#ebdbb2",
-    "sideBar.border": "#45858822",
+    "sideBar.border": "#1d2021",
     "sideBarSectionHeader.foreground": "#ebdbb2",
     "sideBarSectionHeader.background": "#1d2021",
     "titleBar.inactiveBackground": "#1d2021",
@@ -947,7 +947,7 @@
       "name": "V module names",
       "scope": "entity.name.module.v",
       "settings": {
-        "foreground": "#83a598"
+        "foreground": "#d3869b"
       }
     },
     {
@@ -961,14 +961,14 @@
       "name": "V import names",
       "scope": "entity.name.import.v",
       "settings": {
-        "foreground": "#b8bb26"
+        "foreground": "#d3869b"
       }
     },
     {
       "name": "V import aliases",
       "scope": "entity.name.alias.v",
       "settings": {
-        "foreground": "#98971a"
+        "foreground": "#d3869b"
       }
     },
     {
