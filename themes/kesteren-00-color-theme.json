@@ -972,6 +972,13 @@
       }
     },
     {
+      "name": "V structs",
+      "scope": "storage.type.struct.v",
+      "settings": {
+        "foreground": "#458588"
+      }
+    },
+    {
       "name": "V functions",
       "scope": "keyword.fn.v",
       "settings": {
