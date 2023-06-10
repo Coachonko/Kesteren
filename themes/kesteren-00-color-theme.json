@@ -940,7 +940,7 @@
       "name": "V module keyword",
       "scope": "keyword.module.v",
       "settings": {
-        "foreground": "#458588"
+        "foreground": "#8ec07c"
       }
     },
     {
