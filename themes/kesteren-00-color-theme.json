@@ -707,13 +707,6 @@
       }
     },
     {
-      "scope": "string.other.link.title.markdown",
-      "settings": {
-        "foreground": "#504945",
-        "fontStyle": "underline"
-      }
-    },
-    {
       "scope": "markup.underline.link",
       "settings": {
         "foreground": "#d3869b"
@@ -776,6 +769,37 @@
       ],
       "settings": {
         "foreground": "#8ec07c"
+      }
+    },
+    {
+      "scope": "markup.italic.markdown",
+      "settings": {
+        "foreground": "#b16286"
+      }
+    },
+    {
+      "scope": "punctuation.definition.heading.markdown",
+      "settings": {
+        "foreground": "#FABD2F"
+      }
+    },
+    {
+      "scope": "string.other.link.title.markdown",
+      "settings": {
+        "foreground": "#458588",
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "scope": "punctuation.definition.quote.begin.markdown",
+      "settings": {
+        "foreground": "#fe8019"
+      }
+    },
+    {
+      "scope": "markup.quote.markdown",
+      "settings": {
+        "foreground": "#fe8019"
       }
     },
     {
